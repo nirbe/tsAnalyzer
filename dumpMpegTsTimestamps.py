@@ -142,7 +142,7 @@ def getTSTimestamps(inputFilenames, filterStreamId):
         filePos += len(curPacket)
     return result
 
-# comment	
+# comment comment
 if len(sys.argv) < 2:
     print 'Usage:\n\t%s [-f<stream id to filter>] <input file1> <input file2> ...' % os.path.basename(__file__)
     sys.exit(1)
