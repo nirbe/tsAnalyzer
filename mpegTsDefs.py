@@ -10,6 +10,7 @@ MAX_AUDIO_STREAM_ID = 0xDF
 MIN_VIDEO_STREAM_ID = 0xE0
 MAX_VIDEO_STREAM_ID = 0xEF
 
+#comment
 mpegTsHeader = BitStruct("mpegTsHeader",
                          BitField("syncByte", 8),
                          Flag("transportErrorIndicator"),
